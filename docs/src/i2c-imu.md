@@ -71,7 +71,8 @@ More info to i2c you can find [at Wikipedia](https://en.wikipedia.org/wiki/I%C2%
 
 ![ESP32 I2C Wiring](assets/wiring_imu.png)
 
-(Note that  the two pull-up registers in this diagram are very likely redundant since almost all I2C breakout board include them already.)
+Note: The two pull-up registers in this diagram are very likely redundant since almost all I2C breakout board include them already. But if you
+put resistors like in the diagram, use 4.7k Ohms resistors, to make the I2C work.
 
 ## Finding a driver for given IMU
 
