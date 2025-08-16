@@ -40,7 +40,7 @@ Here we use an interrupt to detect a button press.
 ```sh
 esp-generate --chip esp32c3 --headless -o probe-rs -o defmt interrupt
 cd interrupt
-cargo add critical-sectiocargo
+cargo add critical-section
 add esp-hal@=1.0.0-rc.0 -F defmt -F esp32c3 -F unstable
 ```
 
